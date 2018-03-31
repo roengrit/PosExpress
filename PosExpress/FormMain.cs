@@ -16,5 +16,11 @@ namespace PosExpress
         {
             InitializeComponent();
         }
+
+        private void mn_inventory_list_Click(object sender, EventArgs e)
+        {
+            var frm = new Inventory.FormInventory();
+            frm.Show(dockPanel);
+        }
     }
 }

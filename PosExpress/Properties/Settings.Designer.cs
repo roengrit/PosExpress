@@ -22,5 +22,17 @@ namespace PosExpress.Properties {
                 return defaultInstance;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("C:\\Users\\admin\\Documents\\github\\PosExpress\\PosExpress\\Data\\data.db")]
+        public string dbConnection {
+            get {
+                return ((string)(this["dbConnection"]));
+            }
+            set {
+                this["dbConnection"] = value;
+            }
+        }
     }
 }
